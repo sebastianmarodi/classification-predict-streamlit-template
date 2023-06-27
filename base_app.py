@@ -71,7 +71,7 @@ def main():
 
     # Building out the "Home" page
     if selected == "Home":
-        image = Image.open("resources/Elites.pptx (3).png")
+        image = Image.open("resources/logo3.png")
 
         st.title("Elites Data Science")
 
@@ -94,7 +94,7 @@ def main():
             
             st.markdown("We’re proud to be an industry leader in promoting eco-friendly business practices. Striving to protect and sustain our environment is a given at every stage of our services.\n  Our green vision goes beyond helping businesses sustain their core mission as a green company. We design innovative technology to help businesses save time, reduce costs, and make better business decisions to ensure their footprint is greener.")
             st.markdown("Elites mission is to accelerate the world’s transition to sustainable energy, Earth is still preserved for generations to come. Our data science consultants deliver incredible value by evaluating the model and proving insights.")
-            image4 = Image.open("resources/Elites.pptx (3).png")
+            image4 = Image.open("resources/logo3.png")
             st.image(image4)
         with tab2:
             st.write(
@@ -121,7 +121,7 @@ def main():
         st.title("Classify tweets")   
 
         #Adding sidebar image
-        image = Image.open("resources/Elites.pptx (3).png")
+        image = Image.open("resources/logo3.png")
         st.sidebar.image(image, use_column_width=True)  
 
 
@@ -224,7 +224,7 @@ def main():
         st.title("Raw Data & Visuals")  
 
         #Adding sidebar image
-        image = Image.open("resources/Elites.pptx (3).png")
+        image = Image.open("resources/logo3.png")
         st.sidebar.image(image, use_column_width=True)     
     
         tab1, tab2 = st.tabs(["Data description", "Data Visualizations"])
@@ -282,7 +282,7 @@ def main():
 
         st.title("How it Works")  
 
-        image = Image.open("resources/Elites.pptx (3).png")
+        image = Image.open("resources/logo3.png")
         st.sidebar.image(image, use_column_width=True)  
 
         #Describe intro
@@ -306,7 +306,7 @@ def main():
     if selected == "Contact Us":
 
         #Adding sidebar image
-        image = Image.open("resources/Elites.pptx (3).png")
+        image = Image.open("resources/logo3.png")
         st.sidebar.image(image, use_column_width=True)  
 
         with st.form("form1", clear_on_submit=True):
