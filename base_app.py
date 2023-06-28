@@ -71,7 +71,7 @@ def main():
 
     # Building out the "Home" page
     if selected == "Home":
-        image = Image.open("resources/logo3.png")
+        image = Image.open("resources/LOGOFINAL.png")
 
         st.title("Elites Data Science")
 
@@ -121,7 +121,7 @@ def main():
         st.title("Classify tweets")   
 
         #Adding sidebar image
-        image = Image.open("resources/logo3.png")
+        image = Image.open("resources/LOGOFINAL.png")
         st.sidebar.image(image, use_column_width=True)  
 
 
@@ -224,7 +224,7 @@ def main():
         st.title("Raw Data & Visuals")  
 
         #Adding sidebar image
-        image = Image.open("resources/logo3.png")
+        image = Image.open("resources/LOGOFINAL.png")
         st.sidebar.image(image, use_column_width=True)     
     
         tab1, tab2 = st.tabs(["Data description", "Data Visualizations"])
@@ -282,7 +282,7 @@ def main():
 
         st.title("How it Works")  
 
-        image = Image.open("resources/logo3.png")
+        image = Image.open("resources/LOGOFINAL.png")
         st.sidebar.image(image, use_column_width=True)  
 
         #Describe intro
@@ -306,7 +306,7 @@ def main():
     if selected == "Contact Us":
 
         #Adding sidebar image
-        image = Image.open("resources/logo3.png")
+        image = Image.open("resources/LOGOFINAL.png")
         st.sidebar.image(image, use_column_width=True)  
 
         with st.form("form1", clear_on_submit=True):
