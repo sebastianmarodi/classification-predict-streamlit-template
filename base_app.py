@@ -64,7 +64,7 @@ def main():
         selected = option_menu(
             "Menu",
             ["Predictions", "Home", "Raw Data & Visuals", "How it Works", "About Us", "Contact Us"],
-            icons=["house", "table", "graph-up-arrow", "info-circle", "telephone"],
+            icons=["table", "house", "graph-up-arrow", "info-circle", "telephone"],
             menu_icon="menu-button",
             default_index=0,
         )
